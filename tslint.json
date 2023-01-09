@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "error",
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
+  },
+  "extends": ["tslint:recommended", "tslint-config-prettier", "tslint-etc"],
+  "jsRules": {},
+  "rules": {
+    "semicolon": [true, "always", "ignore-interfaces"],
+    "eofline": true,
+    "max-classes-per-file": false,
+    "only-arrow-functions": false,
+    "await-promise": true,
+    "no-unused-declaration": true,
+    "no-console": false
+  },
+  "rulesDirectory": []
+}
